@@ -1,0 +1,4 @@
+javascript:(function(){!function(){function e(){document.querySelectorAll(".js_vacancyLoad").forEach((e=>{e.querySelector('a[href="https://www.infojobs.com.br/empresa-bairesdev__-62029.aspx"]')&&e.remove()}))}function t(){e(),document.querySelectorAll(".page-link").forEach((t=>{t.addEventListener("click",(t=>{new MutationObserver((t=>{t.forEach((t=>{"childList"===t.type&&t.addedNodes.length>0&&(e(),o.disconnect())}))})).observe(document.body,{childList:!0,subtree:!0})}))}))}window.addEventListener("load",t);let o=new MutationObserver((e=>{e.forEach((e=>{"childList"===e.type&&e.addedNodes.length>0&&t()}))}));o.observe(document.body,{childList:!0,subtree:!0}),t()}();}());
+//1-Salve este código como URL em favoritos.
+//2-Clique no item favoritado para executar o código.
+//EXTRA: Em caso de alteração de script, use a ferramenta: https://make-bookmarklets.com/
